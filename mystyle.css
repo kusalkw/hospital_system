@@ -1,0 +1,167 @@
+<style >
+		
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+			padding: 0px;
+		}
+    body{
+        background-image: -ms-linear-gradient(bottom right, #AF91FF 10%, #04E0B4 78%, #66B8FF 99%); 
+        background-image: -moz-linear-gradient(bottom right, #AF91FF 10%, #04E0B4 78%, #66B8FF 99%); 
+        background-image: -o-linear-gradient(bottom right, #AF91FF 10%, #04E0B4 78%, #66B8FF 99%); 
+        background-image: -webkit-gradient(linear, right bottom, left top, color-stop(10, #AF91FF), color-stop(78, #04E0B4), color-stop(99, #66B8FF)); background-image: -webkit-linear-gradient(bottom right, #AF91FF 10%, #04E0B4 78%, #66B8FF 99%); 
+        background-image: linear-gradient(to top left, #AF91FF 10%, #04E0B4 78%,#66B8FF 99%);
+        height: 100%; 
+        background-attachment: fixed;
+        
+    }
+    
+    .header p{
+        color: white;
+        font-family:sans-serif;
+        letter-spacing:1px;
+        font-weight: 500
+    }
+
+    .header{
+        width:auto;
+        height: 50px;
+        background-color: #2d87e2;
+        margin-top: 0px;
+        padding-top:1px;
+        padding-left: 20px;
+        border-left-style: solid;
+        border-left-width:thick;
+        border-left-color: darkorange;
+    }
+
+    ::-webkit-input-placeholder {
+        font-style: italic;
+        letter-spacing:.6px;
+        font-family:monospace;
+        color: #dddddd;
+    }
+
+    ::-moz-placeholder {
+        font-style: italic;
+        letter-spacing:.6px;
+        font-family:monospace;
+color: #dddddd;
+    }
+
+    label{
+        color:rgb(255, 255, 255);
+        font-family:sans-serif;
+        letter-spacing:.4px;
+        display: inline-block;
+        width: 140px;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    .main-top{
+        padding:20px 20px 10px 20px;
+        width:500px;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.15);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: auto;
+        border-radius: 10px;
+    }
+
+    input[type=text][name=ini_name]{
+        text-transform:uppercase;
+    }
+    input[type=text][name=fname],input[type=text][name=lname]{
+        text-transform:capitalize;
+    }
+
+
+    input[type=text],input[type=password],
+    input[type=number],input[type=date]{
+        width: 300px;
+        padding: 5px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    textarea{
+        width: 300px;
+        padding: 5px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: left;
+        resize:vertical;
+        vertical-align: middle;
+    }
+
+    select {
+        width: 110px;
+        padding: 5px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input:focus:invalid {
+        background-image: url(images/dontknow.gif);
+        background-position: 97% 50%;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 0, 0, 0.17);
+    }
+
+    input:required:valid {
+        background-image: url(images/lol.gif);
+        background-position:97% 50%;
+        background-repeat: no-repeat;
+        background-color: #7dff7d;
+    }
+
+    input[type=submit],input[type=button]{
+        width: 150px;
+        padding: 5px 15px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color:#3396FF;
+        color:rgb(255, 255, 255);
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    html,body{
+       margin: 0 auto 0 auto;
+       box-sizing:border-box;
+    }
+
+   
+    </style>
