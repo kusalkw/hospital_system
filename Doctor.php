@@ -51,7 +51,7 @@
         </div>
     </div>
     </form>
-    <p style="color:red; font-size:80%;">©Dinuka Kasun Medis & Kusal Kalhara Weerasuriya</p>
+    <p style="color:black; font-size:80%;">©Dinuka Kasun Medis & Kusal Kalhara Weerasuriya</p>
 </body>
 </html>
 

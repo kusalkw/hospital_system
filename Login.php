@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
 </head>
     
@@ -24,6 +25,8 @@
     
     </style>
 <header class="header"><p>Welcome to Hospital Management System | Login</p></header>
+    
+<div class="w3-container w3-center w3-animate-left">
     <form id="form1" name="form1" method="post" action="Login.php">
     <div class="main-top" >
         
@@ -38,13 +41,14 @@
             <input type="password" name="password" id="password" required>
         </dev>
         
-        <div style="position:relative;left:140px;top:5px;">
+        <div style="position:relative;left:75px;top:5px;">
             <input type=button name=submit id=add value='Patient'onclick="window.location.href='http://localhost/hospital_system/PatientMain.php'">
             <input type=submit name=login id=login value=Login>
         </div>
         
     </div>
     </form>
+</div>
     <p style="color:red; font-size:80%;">©Dinuka Kasun Medis & Kusal Kalhara Weerasuriya</p>
 </body>
 </html>
